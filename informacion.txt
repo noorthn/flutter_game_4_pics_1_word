@@ -1,0 +1,25 @@
+tipos de logros:
+
+* completar palabras 
+* palabras sin errores
+* responde rapido
+* sin ayuda
+* elo
+
+ganancias:
+    5 monedas partida normal
+    6 monedas si responde rapido
+    x2 con video.
+
+costos:
+    6 por letra     
+    10 por idea
+
+tienda:
+
+    3$ eliminar ads 
+    5$ 120 tickets
+    8$ 240 tickets
+    12$ 500 tickets
+    
+

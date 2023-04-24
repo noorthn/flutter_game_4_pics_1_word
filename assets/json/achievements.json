@@ -1,0 +1,83 @@
+[   
+    {
+        "icon"          : "general",
+        "title"         : "Primeros pasos",
+        "description"   : "Completa 5 palabras",
+        "status"        : false,
+        "reward"        : 15,
+        "exp"           : 15,
+        "steps": {
+            "games"         : 5
+        }
+    },
+    {
+        "icon"          : "general",
+        "title"         : "Crecimiento excesivo",
+        "description"   : "Completa 10 palabras",
+        "status"        : false,
+        "reward"        : 15,
+        "exp"           : 15,
+        "steps": {
+            "games"         : 10
+        }
+    },
+    {
+        "icon"          : "general",
+        "title"         : "persona elocuente",
+        "description"   : "Completa 50 palabras",
+        "status"        : false,
+        "reward"        : 15,
+        "exp"           : 15,
+        "steps": {
+            "withoutError"  : 5,
+            "faster"        : {
+                "games" : 5,
+                "less"  : 20
+            }
+        }
+    },
+    {
+        "icon"          : "general",
+        "title"         : "Volando",
+        "description"   : "Completa 75 palabras",
+        "status"        : false,
+        "reward"        : 15,
+        "exp"           : 15,
+        "steps": {
+            "games"         : 5
+        }
+    },
+    {
+        "icon"          : "general",
+        "title"         : "Letrado",
+        "description"   : "Completa 100 palabras",
+        "status"        : false,
+        "reward"        : 15,
+        "exp"           : 15,
+        "steps": {
+            "games"         : 5
+        }
+    },
+    {
+        "icon"          : "general",
+        "title"         : "Culto",
+        "description"   : "Completa 500 palabras",
+        "status"        : false,
+        "reward"        : 15,
+        "exp"           : 15,
+        "steps": {
+            "games"         : 5
+        }
+    },
+    {
+        "icon"          : "general",
+        "title"         : "Erudito",
+        "description"   : "Completa 1000 palabras",
+        "status"        : false,
+        "reward"        : 15,
+        "exp"           : 15,
+        "steps": {
+            "games"         : 5
+        }
+    }
+]
