@@ -1,5 +1,5 @@
 # 4 Fotos 1 Palabra en Flutter
-| Imagen 1 | Imagen 2 |
+| Home | Game |
 | --- | --- |
 | <img src="/assets/images/ss1.png" width="300"> | <img src="/assets/images/ss2.png" width="300"> |
 
