@@ -6,6 +6,7 @@ import 'package:get/get.dart';
 import '../../widgets/card/achievements/achievements_card.dart';
 import '../../widgets/card/coins/coint_count.dart';
 import '../../widgets/card/coins/level_count.dart';
+import '../../widgets/ui/logo.dart';
 import 'controllers/home_controller.dart';
 
 class HomeScreen extends GetView<HomeController> {
@@ -34,7 +35,10 @@ class HomeScreen extends GetView<HomeController> {
         body            : ListView(
           children: [
 
-            SizedBox(height: Get.height / 6),
+            const SizedBox(height: 20,),
+
+            const Logo(),
+
             Center(
               child: InkWell(
                 onTap: (){Get.toNamed('/classic');},
@@ -51,8 +55,8 @@ class HomeScreen extends GetView<HomeController> {
                 )
               )
             ),
-            
             const SizedBox(height: 50),
+            
             Container(
               margin  : const EdgeInsets.symmetric(horizontal: 20),
               child   : Row(
@@ -63,7 +67,6 @@ class HomeScreen extends GetView<HomeController> {
                 ]
               )
             ),
-            
             for(var item in controller.appController.achievementList)
               AchievementsCard(item: item)
 
