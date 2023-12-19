@@ -564,7 +564,7 @@ class _ClassicScreenState extends State<ClassicScreen> {
 
   createRewards(ClassicController _){
     if(_.rewardActive){
-      for(  var i = 0;  i < 9 ; i++){
+      for(  var i = 0;  i < 9 ; ){
          return RewardToBag(classicController: _, position: _.positionB);
       }
     }else{
